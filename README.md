@@ -70,7 +70,7 @@ Tabla principal: vehicles
     UNIQUE KEY `vehicles_plate_unique` (`plate`)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-Nota: El volcado completo con los datos se encuentra en el archivo:
+Nota: El archivo SQL incluye la creación de la tabla y todos los registros existentes:
 
     database/vehicles.sql
 
