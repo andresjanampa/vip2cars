@@ -1,4 +1,4 @@
-# Sistema de Gestión de Vehículos - VIP2CARS
+# Sistema de Gestión de Vehículos
 
 ## Requisitos del entorno
 
@@ -49,9 +49,9 @@
 
 ## Estructura de la Base de Datos
 
-    El proyecto utiliza una base de datos MySQL (MariaDB 10.4.32).
+El proyecto utiliza una base de datos MySQL (MariaDB 10.4.32).
 
-    Tabla principal: vehicles
+Tabla principal: vehicles
 
     CREATE TABLE `vehicles` (
     `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -70,12 +70,12 @@
     UNIQUE KEY `vehicles_plate_unique` (`plate`)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-    Nota: El volcado completo con los datos se encuentra en el archivo:
+Nota: El volcado completo con los datos se encuentra en el archivo:
 
-        database/vehicles.sql
+    database/vehicles.sql
 
 ## Usuario Demo
 
-    No se requiere login.
+No se requiere login.
 
-    Para pruebas, puedes crear vehículos directamente desde el formulario de registro.
+Para pruebas, puedes crear vehículos directamente desde el formulario de registro.
